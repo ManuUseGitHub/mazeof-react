@@ -1,0 +1,32 @@
+{
+  "name": "mazeof-react",
+  "version": "1.0.1",
+  "description": "some goods for your react",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuUseGitHub/mazeof-react.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "useful"
+  ],
+  "author": "maze014",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManuUseGitHub/mazeof-react/issues"
+  },
+  "homepage": "https://github.com/ManuUseGitHub/mazeof-react#readme",
+  "dependencies": {
+    "@types/node": "^20.7.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "rollup-plugin-tsc": "^1.1.16"
+  }
+}
