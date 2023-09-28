@@ -1,2 +1,2 @@
 # useClassPrefix
-React hook that can prefix classes from className attributes
+React hooks and other usefull stuff. More info later
