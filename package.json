@@ -3,6 +3,7 @@
   "version": "1.0.14",
   "description": "some goods for your react",
   "main": "index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +15,7 @@
   "keywords": [
     "react",
     "hooks",
-    "useful"
+    "usefull"
   ],
   "author": "maze014",
   "license": "MIT",
