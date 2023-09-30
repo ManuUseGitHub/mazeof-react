@@ -1,4 +1,4 @@
-import { useClassPrefix } from "./dev/hooks"
+import { useClassPrefix } from "./hooks"
 
 export {
     useClassPrefix
