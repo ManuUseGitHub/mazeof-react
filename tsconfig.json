@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
-    "rootDir": "./",
     "outDir": "dist",
-    "declaration": true
-  }
+    "rootDir": "src",
+    "declaration": true,
+    "module": "ESNext",
+    "target": "ES2019"
+  },
+  "include": [
+    "src"
+  ]
 }

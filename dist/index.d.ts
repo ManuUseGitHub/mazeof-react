@@ -1,2 +1,2 @@
-import { useClassPrefix } from "./hooks";
+import { useClassPrefix } from "./hooks/index";
 export { useClassPrefix };

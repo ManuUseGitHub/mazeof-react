@@ -1,13 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.useClassPrefix = void 0;
-var useClassPrefix = function (prefix) {
-    var apply = function (classNames) {
+export const useClassPrefix = (prefix) => {
+    const apply = (classNames) => {
         return classNames
             .split(" ")
-            .map(function (c) { return "".concat(prefix, "-").concat(c); })
+            .map((c) => `${prefix}-${c}`)
             .join(" ");
     };
     return apply;
 };
-exports.useClassPrefix = useClassPrefix;
